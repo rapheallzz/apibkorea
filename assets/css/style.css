@@ -93,7 +93,7 @@
   top: 0;
   height: 490%;
   width: 180%;
-  background: #d43f8d;
+  background: #166F41;
   transform: translateX(-140%) translateY(-25%) rotate(45deg);
   transition-duration: 0.3s;
   transition-timing-function: linear;
@@ -132,7 +132,7 @@
   color: #fff;
   border: 0px;
   cursor: pointer;
-  background: rgba(212, 63, 141, 0.2);
+  background: rgba(22, 111, 65, 0.2);
   color: #000;
   transition: 0.3s;
   overflow: hidden;
@@ -159,7 +159,7 @@
   top: 0;
   height: 490%;
   width: 180%;
-  background: #d43f8d;
+  background: #166F41;
   transform: translateX(-140%) translateY(-25%) rotate(45deg);
   transition-duration: 0.3s;
   transition-timing-function: linear;
@@ -244,8 +244,8 @@
 }
 
 .mybtn-bg {
-  background: #EA384D;
-  border-color: #EA384D;
+  background: #166F41;
+  border-color: #166F41;
   color: #fff;
 }
 
@@ -254,7 +254,7 @@
 }
 
 .mybtn-bg:hover span {
-  color: #EA384D;
+  color: #166F41;
 }
 
 .mybtn-light {
@@ -263,7 +263,7 @@
 
 .mybtn-light:before,
 .mybtn-light:after {
-  background: #EA384D;
+  background: #166F41;
 }
 
 .mybtn-light:hover span {
@@ -271,21 +271,21 @@
 }
 
 .mybtn-light span {
-  color: #EA384D;
+  color: #166F41;
 }
 
 .mybtn-bord {
   background: transparent;
-  border: 1px solid #EA384D;
+  border: 1px solid #166F41;
 }
 
 .mybtn-bord:before,
 .mybtn-bord:after {
-  background: #EA384D;
+  background: #166F41;
 }
 
 .mybtn-bord:hover {
-  border-color: #EA384D;
+  border-color: #166F41;
 }
 
 .mybtn-bord:hover span {
@@ -364,7 +364,7 @@
   position: fixed;
   font-size: 14px;
   text-align: center;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
@@ -405,7 +405,7 @@
   text-transform: capitalize;
 }
 .section-title .title span {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -464,7 +464,7 @@
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
 .input-field.borderd:focus {
-  border: 1px solid #d43f8d;
+  border: 1px solid #166F41;
 }
 .input-field.textarea {
   min-height: 140px;
@@ -522,7 +522,7 @@
   z-index: -1;
 }
 .video-play-btn i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation-duration: 5s;
@@ -570,7 +570,7 @@
   width: 100px;
   height: 100px;
   text-align: center;
-  background-color: #d43f8d;
+  background-color: #166F41;
   border-radius: 50%;
   position: relative;
 }
@@ -627,7 +627,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   justify-content: center;
 }
 .preloader-inner .cancel-preloader {
@@ -781,7 +781,7 @@
   padding: 177px 0px 117px;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .breadcrumb-area .title {
   font-size: 40px;
@@ -1009,10 +1009,10 @@ select:focus {
   color: #242424;
 }
 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .navigation .navbar {
   padding: 0px 0px 0px;
@@ -1084,7 +1084,7 @@ select:focus {
   margin-right: 4px;
 }
 .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item:hover {
-  background: #d43f8d;
+  background: #166F41;
   color: #fff;
 }
 .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item:last-child {
@@ -1196,7 +1196,7 @@ select:focus {
   left: 0px;
   height: 4px;
   width: 0%;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   transition: all 0.3s ease-in;
 }
 .about .box .inner-box {
@@ -1210,7 +1210,7 @@ select:focus {
   font-size: 55px;
 }
 .about .box .inner-box .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in;
@@ -1255,7 +1255,7 @@ select:focus {
   display: block;
 }
 .whaybest .info .info-title span {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1289,7 +1289,7 @@ select:focus {
   margin-bottom: 14px;
 }
 .whaybest .feature-list li .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 55px;
@@ -1309,7 +1309,7 @@ select:focus {
   line-height: 26px;
 }
 .whaybest .feature-list li:hover .icon::after {
-  border-color: #d43f8d;
+  border-color: #166F41;
   animation: shapeani2 10s linear infinite;
 }
 
@@ -1363,7 +1363,7 @@ select:focus {
   position: relative;
 }
 .feature .feature-box .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1443,7 +1443,7 @@ select:focus {
 }
 .video .video-wrapper .video-box {
   position: relative;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   padding: 243px 0px;
   z-index: 99;
   border-radius: 5px;
@@ -1470,7 +1470,7 @@ select:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   opacity: 0.5;
 }
 .video .video-wrapper .video-box .play-icon {
@@ -1525,7 +1525,7 @@ select:focus {
   color: #fff;
 }
 .video .fun-box .inner-content4 {
-  background: #d43f8d;
+  background: #166F41;
 }
 .video .fun-box .inner-content4 .icon i {
   color: #fff;
@@ -1537,7 +1537,7 @@ select:focus {
   margin-top: 30px;
 }
 .video .fun-box .inner-content2 .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1548,12 +1548,12 @@ select:focus {
   margin-top: -30px;
 }
 .video .fun-box .inner-content3 .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .video .fun-box .inner-content3 .icon::after {
-  border: 1px dashed #d43f8d;
+  border: 1px dashed #166F41;
 }
 
 /*---------------------------
@@ -1602,7 +1602,7 @@ select:focus {
   font-size: 30px;
   line-height: 30px;
   font-weight: 900;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0px;
@@ -1619,7 +1619,7 @@ select:focus {
   margin-top: 30px;
 }
 .dealofweek .deal-slider-area .content .right-area .links .mybtn1 {
-  background: rgba(212, 63, 141, 0.2);
+  background: rgba(22, 111, 65, 0.2);
   color: #000;
   transition: all 0.3s linear;
 }
@@ -1664,7 +1664,7 @@ select:focus {
 }
 .pricing .product-slider .item .single-product .img {
   text-align: center;
-  background: rgba(212, 63, 141, 0.2);
+  background: rgba(22, 111, 65, 0.2);
   padding: 30px 30px 24px;
   position: relative;
   width: 100%;
@@ -1719,7 +1719,7 @@ select:focus {
   font-size: 26px;
   line-height: 36px;
   font-weight: 700;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 7px;
@@ -1861,7 +1861,7 @@ select:focus {
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   transform: rotate(85deg);
 }
 .testimonial-area .testimonial-slider .client .client-image img {
@@ -1950,7 +1950,7 @@ select:focus {
   left: 0;
   height: 100%;
   width: 4px;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .faq .accordion .panel .panel-body {
   padding: 4px 20px 7px;
@@ -2047,7 +2047,7 @@ select:focus {
   animation: shapeani2 10s linear infinite;
 }
 .contact .info-box .left .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2058,7 +2058,7 @@ select:focus {
   margin-bottom: 0px;
 }
 .contact .info-box:hover .left .icon::after {
-  border: 1px dashed #d43f8d;
+  border: 1px dashed #166F41;
 }
 .contact .contact-form-wrapper {
   background: #fff;
@@ -2074,7 +2074,7 @@ select:focus {
 }
 .contact .contact-form-wrapper #contact-form .mybtn1 {
   margin-top: 7px;
-  background: rgba(212, 63, 141, 0.2);
+  background: rgba(22, 111, 65, 0.2);
   color: #000;
   transition: 0.3s;
 }
@@ -2102,7 +2102,7 @@ select:focus {
   height: 40px;
   font-size: 14px;
   line-height: 40px;
-  background: rgba(212, 63, 141, 0.2);
+  background: rgba(22, 111, 65, 0.2);
   color: #000;
   transition: all 0.3s linear;
 }
@@ -2117,7 +2117,7 @@ select:focus {
 .compare-section .compare-table .price {
   font-size: 24px;
   font-weight: 700;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2182,14 +2182,14 @@ select:focus {
   color: #fff;
   font-size: 16px;
   padding: 0px 25px;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   transition: all 0.3s ease-in;
 }
 .subscribe-section .newsletter-form-area button c span {
   margin-right: 5px;
 }
 .subscribe-section .newsletter-form-area button:hover {
-  background-image: linear-gradient(55deg, #d43f8d 0%, #0250c5);
+  background-image: linear-gradient(55deg, #166F41 0%, #0250c5);
 }
 .subscribe-section .newsletter-form-area button:focus {
   outline: 0px;
@@ -2384,7 +2384,7 @@ select:focus {
   color: #fff;
   border-radius: 50%;
   background: #fff;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 .twitter-widget .owl-controls .owl-nav div.owl-prev {
@@ -2404,7 +2404,7 @@ select:focus {
   color: #fff;
   border-radius: 50%;
   background: #fff;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -2995,7 +2995,7 @@ select:focus {
   transition: all 0.3s ease-in;
 }
 .bigbtn:hover {
-  background: #d43f8d;
+  background: #166F41;
 }
 
 .h-100v {
@@ -3413,7 +3413,7 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   opacity: 0.9;
 }
 @keyframes sclanmi3 {
@@ -3428,7 +3428,7 @@ select:focus {
   }
 }
 .home7 .hero-area .discount-circle-inner {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .about {
   position: relative;
@@ -3440,10 +3440,10 @@ select:focus {
   border-radius: 30px 0px 30px 0px;
 }
 .home7 .about .box .inner-box .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .about .box::after {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   opacity: 1;
   width: 100%;
   height: 0%;
@@ -3483,7 +3483,7 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   border-radius: 0px;
   opacity: 0.9;
 }
@@ -3497,7 +3497,7 @@ select:focus {
   box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.219), 0px 0px 0px 20px rgba(255, 255, 255, 0.219), 0px 0px 0px 30px rgba(255, 255, 255, 0.219);
 }
 .home7 .pricing .product-slider .owl-controls .owl-nav div:hover {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .video {
   position: relative;
@@ -3515,7 +3515,7 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   opacity: 0.9;
 }
 .home7 .video .shape {
@@ -3534,7 +3534,7 @@ select:focus {
 .home7 .video .video-play-btn i,
 .home7 .video .fun-box .inner-content2 .icon i,
 .home7 .video .fun-box .inner-content3 .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .testimonial-area {
   position: relative;
@@ -3551,7 +3551,7 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   opacity: 0.9;
 }
 .home7 .testimonial-area .section-title .title {
@@ -3568,10 +3568,10 @@ select:focus {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
 }
 .home7 .testimonial-area .testimonial-slider .owl-controls .owl-nav div:hover {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .testimonial-area .testimonial-slider .client .client-image::after {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .subscribe-section .download-buttons {
   margin-top: 55px;
@@ -3583,7 +3583,7 @@ select:focus {
   line-height: 26px;
 }
 .home7 .subscribe-section .download-buttons a {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   display: inline-block;
   padding: 18px 30px;
   font-size: 18px;
@@ -3595,14 +3595,14 @@ select:focus {
   font-size: 24px;
 }
 .home7 .subscribe-section .newsletter-form-area button {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   cursor: pointer;
 }
 .home7 .dealofweek {
   position: relative;
 }
 .home7 .contact .info-box .left .icon i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .contact .info-box .left .icon::after {
   border: 1px dashed #0250c5;
@@ -3614,12 +3614,12 @@ select:focus {
   color: #fff;
 }
 .home7 .bottomtotop i {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .compare-section .compare-table .price,
 .home7 .pricing .product-slider .item .single-product .content .price .new-price,
 .home7 .dealofweek .deal-slider-area .content .right-area .price p span {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .footer .copy-bg {
   position: relative;
@@ -3630,16 +3630,16 @@ select:focus {
   filter: brightness(0) invert(1);
 }
 .home7 .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item:hover {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .preloader-inner {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, .home7 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before {
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home7 .footer {
   position: relative;
@@ -3655,7 +3655,7 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   opacity: 0.9;
 }
 .home7 .pricing .mybtn-bg {
