@@ -185,12 +185,6 @@ $(function ($) {
             }
         });
 
-    //  preloader js start 
-    $window.on('load', function () {
-    setTimeout(function () {
-        $('#preloader').fadeOut('slow', function () {});
-    }, 600);
-    });
 
     
 
