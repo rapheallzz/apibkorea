@@ -64,7 +64,18 @@ $(function ($) {
         type: 'video'
     });
     $('.img-popup').magnificPopup({
-        type: 'image'
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $('.product-gallery-slider').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
     });
 
     //Aos Active js
