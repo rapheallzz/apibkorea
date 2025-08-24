@@ -131,6 +131,30 @@ $(function ($) {
         }
     });
 
+    // product-gallery-slider
+    var $product_gallery_slider = $('.product-gallery-slider');
+    $product_gallery_slider.owlCarousel({
+        loop: true,
+        nav: true,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        dots: false,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        smartSpeed: 1500,
+        responsive: {
+            0: {
+                items: 2
+            },
+            576: {
+                items: 3
+            },
+            992: {
+                items: 4
+            }
+        }
+    });
+
     // product_slider
     var $product_slider = $('.product-slider');
         $product_slider.owlCarousel({
