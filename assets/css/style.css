@@ -1027,7 +1027,7 @@ select:focus {
   color: #242424;
 }
 .navigation .navbar .navbar-brand img {
-  max-width: 170px;
+  max-width: 250px;
   filter: brightness(0) invert(1);
 }
 .navigation .navbar #mainmenu ul .nav-item .nav-link {
@@ -1163,7 +1163,7 @@ select:focus {
   position: absolute;
   top: -95px;
   left: 100px;
-  max-width: 380px;
+  max-width: 480px;
   width: auto;
   animation: shapeani3 5s linear infinite;
 }
