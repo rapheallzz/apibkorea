@@ -323,13 +323,13 @@
 }
 @keyframes b-shadow {
   0% {
-    box-shadow: 0px 0px 0px 20px rgba(59, 38, 219, 0.1), 0px 0px 0px 40px rgba(59, 38, 219, 0.1), 0px 0px 0px 60px rgba(59, 38, 219, 0.1), 0px 0px 0px 80px rgba(59, 38, 219, 0.1), 0px 0px 0px 100px rgba(59, 38, 219, 0.1);
+    box-shadow: 0px 0px 0px 20px rgba(2, 80, 197, 0.1), 0px 0px 0px 40px rgba(2, 80, 197, 0.1), 0px 0px 0px 60px rgba(2, 80, 197, 0.1), 0px 0px 0px 80px rgba(2, 80, 197, 0.1), 0px 0px 0px 100px rgba(2, 80, 197, 0.1);
   }
   50% {
-    box-shadow: 0px 0px 0px 50px rgba(59, 38, 219, 0.1), 0px 0px 0px 75px rgba(59, 38, 219, 0.1), 0px 0px 0px 100px rgba(59, 38, 219, 0.1), 0px 0px 0px 125px rgba(59, 38, 219, 0.1), 0px 0px 0px 150px rgba(59, 38, 219, 0.1);
+    box-shadow: 0px 0px 0px 50px rgba(22, 111, 65, 0.1), 0px 0px 0px 75px rgba(22, 111, 65, 0.1), 0px 0px 0px 100px rgba(22, 111, 65, 0.1), 0px 0px 0px 125px rgba(22, 111, 65, 0.1), 0px 0px 0px 150px rgba(22, 111, 65, 0.1);
   }
   100% {
-    box-shadow: 0px 0px 0px 20px rgba(59, 38, 219, 0.1), 0px 0px 0px 40px rgba(59, 38, 219, 0.1), 0px 0px 0px 60px rgba(59, 38, 219, 0.1), 0px 0px 0px 80px rgba(59, 38, 219, 0.1), 0px 0px 0px 100px rgba(59, 38, 219, 0.1);
+    box-shadow: 0px 0px 0px 20px rgba(2, 80, 197, 0.1), 0px 0px 0px 40px rgba(2, 80, 197, 0.1), 0px 0px 0px 60px rgba(2, 80, 197, 0.1), 0px 0px 0px 80px rgba(2, 80, 197, 0.1), 0px 0px 0px 100px rgba(2, 80, 197, 0.1);
   }
 }
 .owl-carousel .owl-item img {
@@ -1027,7 +1027,7 @@ select:focus {
   color: #242424;
 }
 .navigation .navbar .navbar-brand img {
-  max-width: 170px;
+  max-width: 250px;
   filter: brightness(0) invert(1);
 }
 .navigation .navbar #mainmenu ul .nav-item .nav-link {
@@ -1163,7 +1163,7 @@ select:focus {
   position: absolute;
   top: -95px;
   left: 100px;
-  max-width: 380px;
+  max-width: 480px;
   width: auto;
   animation: shapeani3 5s linear infinite;
 }
@@ -3670,11 +3670,11 @@ select:focus {
   background: #0250c5;
 }
 .home9 .mybtn-bg {
-  background: #0250c5;
-  border-color: #0250c5;
+  background: #166F41;
+  border-color: #166F41;
 }
 .home9 .mybtn-bg:hover span {
-  color: #0250c5;
+  color: #166F41;
 }
 .home9 .contact .contact-form-wrapper .mybtn3.mybtn-bg {
   margin-top: 10px;
@@ -3689,12 +3689,10 @@ select:focus {
   color: #242424;
 }
 .home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, .home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .navigation .navbar .navbar-brand img {
   filter: unset;
@@ -3703,12 +3701,10 @@ select:focus {
   color: #242424;
 }
 .home9 .navigation .navbar #mainmenu ul .nav-item .nav-link::before {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .navigation .navbar #mainmenu ul .nav-item .nav-link:hover::before, .home9 .navigation .navbar #mainmenu ul .nav-item .nav-link.active::before {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .hero-area {
   position: relative;
@@ -3750,7 +3746,7 @@ select:focus {
   content: " ";
   width: 300px;
   height: 300px;
-  background: rgba(59, 38, 219, 0.1);
+  background: rgba(2, 80, 197, 0.1);
   top: 50%;
   left: 50%;
   border-radius: 50%;
@@ -3783,14 +3779,12 @@ select:focus {
   border-radius: 15px;
 }
 .home9 .about .box .inner-box .icon i {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .home9 .about .box::after {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   width: 0%;
   height: 0%;
   top: 50%;
@@ -3862,8 +3856,7 @@ select:focus {
   box-shadow: 0px 20px 20px 0px rgba(0, 37, 93, 0.1);
 }
 .home9 .pricing .product-slider .owl-controls .owl-nav div:hover {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .video {
   position: relative;
@@ -3890,8 +3883,7 @@ select:focus {
 .home9 .video .video-play-btn i,
 .home9 .video .fun-box .inner-content2 .icon i,
 .home9 .video .fun-box .inner-content3 .icon i {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3925,12 +3917,10 @@ select:focus {
   box-shadow: 0px 20px 20px 0px rgba(0, 37, 93, 0.1);
 }
 .home9 .testimonial-area .testimonial-slider .owl-controls .owl-nav div:hover {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .testimonial-area .testimonial-slider .client .client-image::after {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .subscribe-section .newsletter-form-area {
   box-shadow: 0px 30px 20px 0px rgba(0, 37, 93, 0.15);
@@ -3950,8 +3940,7 @@ select:focus {
   line-height: 26px;
 }
 .home9 .subscribe-section .download-buttons a {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   display: inline-block;
   padding: 18px 30px;
   font-size: 18px;
@@ -3988,8 +3977,7 @@ select:focus {
   margin-bottom: 0px;
 }
 .home9 .subscribe-section .newsletter-form-area button {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   cursor: pointer;
 }
 .home9 .dealofweek {
@@ -4008,8 +3996,7 @@ select:focus {
   border-radius: 15px;
 }
 .home9 .contact .info-box .left .icon i {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4018,14 +4005,12 @@ select:focus {
   animation: shapeani2 10s linear infinite;
 }
 .home9 .bottomtotop i {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .compare-section .compare-table .price,
 .home9 .pricing .product-slider .item .single-product .content .price .new-price,
 .home9 .dealofweek .deal-slider-area .content .right-area .price p span {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4041,20 +4026,16 @@ select:focus {
   box-shadow: 0px 20px 20px 0px rgba(0, 37, 93, 0.15);
 }
 .home9 .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item:hover {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .preloader-inner {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, .home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before {
-  background: #3b26db;
-  background: linear-gradient(to right, #3b26db, #7b19cb);
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .footer {
   position: relative;
