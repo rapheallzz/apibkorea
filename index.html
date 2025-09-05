@@ -660,13 +660,13 @@ There is no perfect test for breast cancer and 15–30 percent of cancer is miss
       <div class="row">
         <div class="col-lg-6">
           <div class="contact-form-wrapper">
-            <form id="contact-form" method="POST">
+            <form id="contact-form" action="contact.php" method="POST">
               <div class="row">
                 <div class="col-md-12">
-                  <input type="text" class="input-field borderd" id="name" placeholder="Your Name" required>
+                  <input type="text" class="input-field borderd" id="name" name="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-12">
-                  <input type="email" class="input-field borderd" id="email" placeholder="Eenter Your Email" required>
+                  <input type="email" class="input-field borderd" id="email" name="email" placeholder="Eenter Your Email" required>
                 </div>
                 <div class="col-md-12">
                   <select class="input-field" id="category" required>
@@ -686,7 +686,7 @@ There is no perfect test for breast cancer and 15–30 percent of cancer is miss
                   </select>
                 </div>
                 <div class="col-12">
-                  <textarea class="input-field borderd textarea" rows="3" id="message"
+                  <textarea class="input-field borderd textarea" rows="3" id="message" name="message"
                     placeholder="Write your message here" required></textarea>
                 </div>
                 <div class="col-12">
