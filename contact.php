@@ -3,9 +3,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["name"]));
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $message = strip_tags(trim($_POST["message"]));
+    $category = strip_tags(trim($_POST["category"]));
 
     // Check that data was sent to the mailer.
-    if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if ( empty($name) OR empty($message) OR empty($category) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
         echo "Please complete the form and try again.";
@@ -20,7 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Build the email content.
     $email_content = "Name: $name\n";
-    $email_content .= "Email: $email\n\n";
+    $email_content .= "Email: $email\n";
+    $email_content .= "Category: $category\n\n";
     $email_content .= "Message:\n$message\n";
 
     // Build the email headers.
