@@ -3744,7 +3744,7 @@ select:focus {
   position: relative;
   overflow: hidden;
   background: #F7F9FF;
-  padding: 297px 0px 220px;
+  padding: 0;
 }
 .home9 .hero-area .shape {
   position: absolute;
