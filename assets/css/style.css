@@ -1168,42 +1168,6 @@ select:focus {
   animation: shapeani3 5s linear infinite;
 }
 
-.hero-area-inner {
-  padding: 250px 0;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  z-index: 1;
-}
-
-.hero-area-inner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.6);
-  z-index: -1;
-}
-
-.hero-area-inner {
-  padding: 250px 0;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.hero-area-inner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-}
-
 /*---------------------------
 ** About Area Start
 ---------------------------*/
@@ -3716,9 +3680,19 @@ select:focus {
   margin-top: 10px;
 }
 .home9 .navigation {
-  background: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+.home9 .navigation.stiky-nav .navbar .navbar-brand img {
+  filter: unset;
+}
+.home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link {
+  color: #242424;
+}
+.home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before {
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
+}
+.home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, .home9 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before {
+  background-image: linear-gradient(55deg, #0250c5 0%, #166F41 100%);
 }
 .home9 .navigation .navbar .navbar-brand img {
   filter: unset;
@@ -3736,7 +3710,7 @@ select:focus {
   position: relative;
   overflow: hidden;
   background: #F7F9FF;
-  padding: 0;
+  padding: 297px 0px 220px;
 }
 .home9 .hero-area .shape {
   position: absolute;
@@ -3747,13 +3721,13 @@ select:focus {
 .home9 .hero-area .left-content .content .title {
   font-size: 56px;
   line-height: 66px;
-  color: #fff;
+  color: #242424;
   font-weight: 700;
 }
 .home9 .hero-area .left-content .content .subtitle {
   font-size: 18px;
   line-height: 28px;
-  color: #fff;
+  color: #242424;
   margin-top: 26px;
 }
 .home9 .hero-area .left-content .content .links {

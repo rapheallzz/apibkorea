@@ -112,36 +112,6 @@ $(function ($) {
         }
     }
     });
-    // banner-slider
-    var $bannerSlider = $('.banner-slider');
-    $bannerSlider.owlCarousel({
-        loop: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        nav: true,
-        dots:false,
-        autoplay:true,
-        autoplayTimeout: 8000,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        smartSpeed: 1200,
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            950: {
-                items: 1
-            },
-            960: {
-                items: 1
-            },
-            1200: {
-                items: 1
-            }
-        }
-    });
     // testimonial-slider 
     var $testimonialSlider = $('.testimonial-slider');
         $testimonialSlider.owlCarousel({
