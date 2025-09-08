@@ -3747,13 +3747,13 @@ select:focus {
 .home9 .hero-area .left-content .content .title {
   font-size: 56px;
   line-height: 66px;
-  color: #242424;
+  color: #fff;
   font-weight: 700;
 }
 .home9 .hero-area .left-content .content .subtitle {
   font-size: 18px;
   line-height: 28px;
-  color: #242424;
+  color: #fff;
   margin-top: 26px;
 }
 .home9 .hero-area .left-content .content .links {
